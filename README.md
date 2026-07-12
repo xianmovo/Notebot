@@ -1,0 +1,35 @@
+# Notebot
+#### Allows you to play notebox music automatically in the game.
+  
+ 
+Notebot was once a feature in many auxiliary mods, allowing you to automatically play notebox music in the game.  
+This mod extracts the notebot function from Meteor Client and makes it independent.  
+## Usage
+
+### Commands
+/notebot play <filename> Play song (requires notebox)  
+/notebot preview <filename> Preview (no notebox required)  
+/notebot randomsong Random play  
+/notebot pause Pause/resume  
+/notebot stop Stop  
+/notebot status Check status  
+/notebot record start Start recording  
+/notebot record save <filename> Save recording  
+/notebot folder Open the song folder in File Explorer  
+/notebot help Get help  
+
+### Steps
+Enter the game, execute the /notebot folder command to open the song folder, and place the song file (.nbs/.txt) in it.  
+Execute /notebot preview song_name to preview the song.  
+Build a notebox stage (find the resources yourself), stand in the center or a designated position on the stage, and execute /notebot play song_name Notebot will automatically debug and play the music.  
+  
+*If you encounter a problem debugging the notebox and it keeps failing, try moving around, as the notebox may be out of reach.*  
+  
+### Song Files
+Notebot can load **.nbs** and **.txt** files.  
+For information on **.nbs** files, please search for ***Note Block Studio*** (an nbs creator) and its usage.  
+To obtain song files, please search for resources.  
+
+## Compatibility and Risks
+**It is not recommended to use this mod on servers with anti-cheat measures, as it may result in false bans. It is recommended to report to the server administrator or owner before use.**  
+Currently, there are no known compatibility issues.  
