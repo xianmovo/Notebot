@@ -1,0 +1,1 @@
+﻿.gradle/\nbuild/\n*.class\n*.jar\n!gradle/wrapper/gradle-wrapper.jar\n.idea/\n*.iml\n.vscode/\n.DS_Store\nThumbs.db\n*.log\n
