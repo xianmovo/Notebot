@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "Notebot",
+  "id": "notebot",
+  "version": "${version}",
+  "description": "A standalone noteblock bot for Fabric. Play songs using note blocks in Minecraft.",
+  "authors": [
+    "Notebot"
+  ],
+  "contact": {
+    "homepage": "https://github.com/xianmovo/Notebot",
+    "sources": "https://github.com/xianmovo/Notebot"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/notebot/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.notebot.NotebotMod"
+    ]
+  },
+  "mixins": [
+    "notebot.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "minecraft": [">=1.21", "<1.22"],
+    "fabricloader": ">=0.16.0"
+  }
+}
